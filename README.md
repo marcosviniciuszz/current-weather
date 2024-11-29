@@ -12,8 +12,7 @@ Comparação de clima:
 
 ![compare-weather](https://github.com/user-attachments/assets/481ee7d5-ebbb-4a44-adda-4dd242e3c8b4)
 
-
-Guia para rodar o projeto: [Instalação](https://weatherstack.com/documentation)
+Guia para rodar o projeto: [Instalação](https://github.com/marcosviniciuszz/current-weather/blob/main/SETUP.md)
 
 ## Funcionalidades
 
