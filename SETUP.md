@@ -4,44 +4,59 @@ Este arquivo contém as instruções para configurar o projeto no seu ambiente l
 
 ## A aplicação utiliza 
 
-- Laravel 11.31 (PHP 8.2) +
+- Laravel 11.31 (PHP 8.2+) 
 - Composer 2.7.7 +
 - Node 18 +
 
-## Comandos necessários
-
-Clone o repositório do projeto para o seu ambiente local:
+## Clonando o projeto
 
 ```bash
-git clone 
+git clone https://github.com/marcosviniciuszz/current-weather.git
 ```
 
-Instale o composer
+## Composer
 
 ```bash
 composer install
 ```
 
-Crie e preencha o .env
+## Crie e preencha o .env
+
+**Apenas as variáveis para MySQL e Access Key do WeatherStack são necessárias**
+
 ```bash
 cp .env.example .env
 ```
 
-Gerar chave da aplicação
+## Gerar chave da aplicação
+
 ```bash
 php artisan key:generate
 ```
-Rodar as migrations
+
+## Rodar as migrations
+
 ```bash
 php artisan migrate
 ```
 
-Iniciar a aplicação
+## NPM
+
+```bash
+npm install
+```
+
+
+## Comandos para iniciar a aplicação
+
+Servidor
+
 ```bash
 php artisan serve
 ```
 
 Iniciar o Node para utilizar o Vite
+
 ```bash
 npm run dev
 ```
